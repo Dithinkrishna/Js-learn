@@ -4,57 +4,120 @@
     margin: auto;
     padding-top: 15px;
     text-align: center;
-    background-color: rgb(141, 171, 230);
-
+    background-color: white;
 }
 
 .heading-style {
     width: 90%;
-    height: 20%;
+    height: 100px;
     margin: auto;
     text-align: center;
     color: blue;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(141, 171, 230);
     border: 1px solid blue;
-    border-radius: 15px;
+    border-radius: 40px;
+}
 
+.heading-style2 {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    color: blue;
+    background-color: white;
+    border: 1px solid aqua;
+    border-bottom: none;
+    border-radius: 90px;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(30px);
+    }
+
+    to {
+        transform: translateX(-30px);
+    }
 }
 
 .heading {
     margin: auto;
     text-align: center;
     margin-top: 30px;
+
+    animation: slideIn 5s ease-in-out 0s alternate-reverse 2 both;
 }
 
-.input-wrapper {
+.calc-box {
     width: 500px;
-    height: 400px;
+    height: 500px;
     margin: auto;
     text-align: center;
     margin-top: 20px;
     border: 1px solid #00f;
-    background-color: white;
+    background-color: rgb(141, 171, 230);
     border-radius: 10px;
-
 }
 
-.label {
-    color: #00f;
-
+#screen {
+    width: 370px;
+    height: 100px;
+    border-color: aqua;
+    background-color: whitesmoke;
+    margin-top: 15px;
+    font-size: 40px;
+    border-radius: 12px;
+    font-family: cursive;
+    pointer-events: none;
 }
 
+#button {
+    width: 100px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border-color: aqua;
+}
 
-
-#btn {
-    color: #00f;
+#button:hover {
+    background-color: aqua;
     cursor: pointer;
 }
 
-#btn:hover {
-    background-color: rgb(38, 0, 255);
-    color: white;
+#btn-clear {
+    width: 50px;
+    height: 60px;
+    border-color: aqua;
+    margin-left: 18px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+#btn-clear:hover {
+    background-color: aqua;
     cursor: pointer;
 }
+
+#btn-equals {
+    width: 50px;
+    height: 60px;
+    border-color: aqua;
+    margin-left: 18px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+#btn-clear:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
 
 @media (max-width:768px) {
     .heading-style {
