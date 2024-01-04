@@ -4,7 +4,7 @@
     margin: auto;
     padding-top: 15px;
     text-align: center;
-    background-color: white);
+    background-color: white;
 
 }
 
@@ -20,19 +20,6 @@
 
 }
 
-@keyframes slideIn {
-    from {
-        transform: translateX(30px);
-    }
-
-    to {
-        transform: translateX(-30px);
-    }
-
-
-}
-
-
 .heading-style2 {
     width: 90%;
     height: 100px;
@@ -43,6 +30,16 @@
     border: 1px solid aqua;
     border-bottom: none;
     border-radius: 90px;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(30px);
+    }
+
+    to {
+        transform: translateX(-30px);
+    }
 }
 
 .heading {
@@ -72,6 +69,7 @@
     background-color: whitesmoke;
     margin-top: 15px;
     pointer-events: none;
+
 }
 
 #button {
@@ -86,6 +84,22 @@
     background-color: aqua;
     cursor: pointer;
 }
+
+#btn-clear {
+    width: 50px;
+    height: 60px;
+    border-color: aqua;
+    margin-left: 18px;
+    margin-right: 10px;
+    margin-top: 30px;
+
+}
+
+#btn-clear:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
 
 
 
