@@ -5,7 +5,6 @@
     padding-top: 15px;
     text-align: center;
     background-color: white;
-
 }
 
 .heading-style {
@@ -17,7 +16,6 @@
     background-color: rgb(141, 171, 230);
     border: 1px solid blue;
     border-radius: 40px;
-
 }
 
 .heading-style2 {
@@ -47,7 +45,7 @@
     text-align: center;
     margin-top: 30px;
 
-    animation: slideIn 3s ease-in-out 0s alternate-reverse 2 both;
+    animation: slideIn 5s ease-in-out 0s alternate-reverse 2 both;
 }
 
 .calc-box {
@@ -59,7 +57,6 @@
     border: 1px solid #00f;
     background-color: rgb(141, 171, 230);
     border-radius: 10px;
-
 }
 
 #screen {
@@ -68,8 +65,10 @@
     border-color: aqua;
     background-color: whitesmoke;
     margin-top: 15px;
+    font-size: 40px;
+    border-radius: 12px;
+    font-family: cursive;
     pointer-events: none;
-
 }
 
 #button {
@@ -92,7 +91,20 @@
     margin-left: 18px;
     margin-right: 10px;
     margin-top: 30px;
+}
 
+#btn-clear:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+#btn-equals {
+    width: 50px;
+    height: 60px;
+    border-color: aqua;
+    margin-left: 18px;
+    margin-right: 10px;
+    margin-top: 30px;
 }
 
 #btn-clear:hover {
