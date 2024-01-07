@@ -9,3 +9,7 @@ function buttonEquals(val) {
     var result = eval(text)
     document.getElementById("screen").value = result
 }
+function operationClick(val){
+
+    alert("WARNING..! Input is blocked")
+}

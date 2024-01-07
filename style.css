@@ -91,31 +91,13 @@
     margin-left: 18px;
     margin-right: 10px;
     margin-top: 30px;
+    
 }
 
 #btn-clear:hover {
     background-color: aqua;
     cursor: pointer;
 }
-
-#btn-equals {
-    width: 50px;
-    height: 60px;
-    border-color: aqua;
-    margin-left: 18px;
-    margin-right: 10px;
-    margin-top: 30px;
-}
-
-#btn-equals:hover {
-    background-color: aqua;
-    cursor: pointer;
-}
-
-
-
-
-
 
 
 
