@@ -1,15 +1,24 @@
-<html>
+<!Doctype html>
     <head>
         <title>1-sum-app</title>
+        <link rel="stylesheet" href="sum-app.css">
     </head>
     <body>
-        <div class="wrapper-body">
-                <u><h1>Add Two Numbers </h1></u><br>
+        <div class="wrapper-content">
             <div class="input-wrapper">
-                <label>First number: </label><input type="number" ><br><br>
-                <label>Second number: </label><input type="number" ><br><br><br>
-                <label>Result: </label><input type="number" readonly><br>
-            </div>
+                <div>
+                 <u><h1 class="main-heading">Add Two Numbers </h1></u>
+                </div>
+                <div class="inp-row">
+                 <label>First number </label><input type="number" id="inp-text1" >
+                </div>
+                <div class="inp-row">
+                 <label>Second number </label><input type="number" id="inp-text2">
+                </div>
+                <div class="inp-row">
+                 <label>Result </label><input type="number" readonly id="inp-text3">
+                </div> 
+            </div> 
         </div>
     </body>
 </html>
