@@ -1,0 +1,44 @@
+.wrapper-content{
+
+    margin: auto;
+    text-align: center;
+
+}
+.input-wrapper{
+    width: 400px;
+    height: 350px;
+    margin: auto;
+
+    text-align: center;
+    margin-top: 28px;
+    font-family: math;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+
+.main-heading{
+    margin-top: 42px;
+}
+
+.inp-row{
+    text-align: left;
+    margin-left: 95px;
+    margin-top: 37px;
+    font-size: x-large;
+}
+
+#inp-text1{
+    width: 28px;
+    margin-left: 35px; 
+}
+
+#inp-text2{
+    width: 28px;
+    margin-left: 10px;  
+}
+
+#inp-text3{
+    width: 28px;
+    margin-left: 105px;
+}
