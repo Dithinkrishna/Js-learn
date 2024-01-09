@@ -1,0 +1,41 @@
+.wrapper-content {
+    text-align: center;
+    margin: auto;
+}
+
+.input-wrapper {
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    margin-top: 28px;
+    text-align: center;
+    font-family: math;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.main-heading {
+    margin-top: 42px;
+}
+
+.inp-row {
+    text-align: left;
+    margin-top: 42px;
+    margin-left: 88px;
+    font-size: x-large;
+}
+
+#inp-first-num {
+    width: 38px;
+    margin-left: 35px;
+}
+
+#inp-second-num {
+    width: 38px;
+    margin-left: 10px;
+}
+
+#output-result {
+    width: 38px;
+    margin-left: 105px;
+}
