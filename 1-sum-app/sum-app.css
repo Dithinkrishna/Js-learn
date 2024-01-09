@@ -1,40 +1,41 @@
-.wrapper-content{
-    margin: auto;
-    text-align: center;
-}
-.input-wrapper{
-    width: 400px;
-    height: 350px;
+.wrapper-content {
     text-align: center;
     margin: auto;
-    margin-top: 28px;
-    border: 1px solid gray;
-    border-radius: 5px;
-    font-family: math;
 }
 
-.main-heading{
+.input-wrapper {
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    margin-top: 28px;
+    text-align: center;
+    font-family: math;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.main-heading {
     margin-top: 42px;
 }
 
-.inp-row{
+.inp-row {
     text-align: left;
-    margin-left: 95px;
-    margin-top: 37px;
+    margin-top: 42px;
+    margin-left: 88px;
     font-size: x-large;
 }
 
-#inp-first-num{
-    width: 28px;
-    margin-left: 35px; 
+#inp-first-num {
+    width: 38px;
+    margin-left: 35px;
 }
 
-#inp-second-num{
-    width: 28px;
-    margin-left: 10px;  
+#inp-second-num {
+    width: 38px;
+    margin-left: 10px;
 }
 
-#output-result{
-    width: 28px;
+#output-result {
+    width: 38px;
     margin-left: 105px;
 }
