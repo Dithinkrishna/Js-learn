@@ -20,7 +20,7 @@
 
 .inp-row {
     text-align: left;
-    margin-top: 42px;
+    margin-top: 38px;
     margin-left: 88px;
     font-size: x-large;
 }
@@ -28,6 +28,19 @@
 #inp-first-num {
     width: 38px;
     margin-left: 35px;
+}
+
+#first-error-message {
+    font-size: 12px;
+    color: red;
+    display: none;
+}
+
+#second-error-message {
+    font-size: 12px;
+    color: red;
+    display: none;
+
 }
 
 #inp-second-num {
