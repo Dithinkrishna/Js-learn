@@ -2,10 +2,15 @@ const prompt = require("prompt");
 
 prompt.start();
 
-prompt.get(["number1", "number2"], main)
+prompt.get(["input"], main)
 function main(err, res) {
-    const number1 = true(res.number1);
-    const number2 = false(res.number2);
-    const boolean = res.number1 >= res.number2
-    console.log(boolean)
+    let parsedInput = false;
+    if (res.input === "true") {
+        parsedInput === true;
+    } else if (res.input === "false") {
+        parsedInput === false;
+    } else {
+        console.log("invalid input");
+        return;
+    }
 }
