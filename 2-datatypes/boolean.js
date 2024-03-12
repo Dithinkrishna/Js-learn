@@ -4,11 +4,11 @@ prompt.start();
 
 prompt.get(["input"], main)
 function main(err, res) {
-    let parsedInput = false;
+    let parsedinput = false;
     if (res.input === "true") {
-        parsedInput === true;
+        console.log(parsedinput = true);
     } else if (res.input === "false") {
-        parsedInput === false;
+        console.log(parsedinput = false);
     } else {
         console.log("invalid input");
         return;
