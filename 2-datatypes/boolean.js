@@ -2,15 +2,18 @@ const prompt = require("prompt");
 
 prompt.start();
 
-prompt.get(["input"], main)
+prompt.get(["parsedinput"], main)
 function main(err, res) {
-    let parsedinput = false;
-    if (res.input === "true") {
-        console.log(parsedinput = true);
-    } else if (res.input === "false") {
-        console.log(parsedinput = false);
+    let parsedinput = true;
+    if (res.parsedinput === "true") {
+        parsedinput = true;
+    } else if (res.parsedinput === "false") {
+        parsedinput = false;
     } else {
-        console.log("invalid input");
+        parsedinput = false;
+        console.log("invalid input")
         return;
     }
+    console.log("valid input", parsedinput)
+
 }
