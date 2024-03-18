@@ -3,7 +3,7 @@ prompt.start();
 prompt.get(["input"], main)
 function main(err, res) {
     const names = ["Dithin", "Dinu", "Priji", "Arch"];
-    const input = (res.input);
+    const input = res.input;
     for (let index = 0; index < names.length; index++) {
         if (names[index].toUpperCase().includes(input.toUpperCase())) {
             console.log(`Character ${input} is present in ${names[index]}`)
