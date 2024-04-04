@@ -1,5 +1,5 @@
 const n = 3;
-const bookDetails = [{}]
+const bookDetails = [];
 for (let i = 0; i < n; i++) {
     bookDetails.push({
         author: `author-${i}`,
