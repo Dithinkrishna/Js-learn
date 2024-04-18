@@ -1,0 +1,36 @@
+#wrapper-content {
+    text-align: center;
+    margin: auto;
+    height: 500px;
+    width: 400px;
+    background-color: rgb(176, 179, 180);
+    border: 1px solid black;
+}
+
+#main-heading {
+    color: orange;
+    text-shadow: 2px 2px brown;
+}
+
+#menu-card {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#input-tea {
+    color: brown;
+}
+
+#input-coffee {
+    margin-top: 10px;
+    color: brown;
+}
+
+#add-button {
+    margin-top: 10px;
+    color: white;
+    background-color: green;
+    border-color: grey;
+    cursor: pointer;
+}
