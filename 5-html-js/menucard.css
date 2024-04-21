@@ -27,8 +27,21 @@
     color: brown;
 }
 
+#toggle-button {
+    margin-top: 10px;
+    color: white;
+    background-color: green;
+    border-color: grey;
+    cursor: pointer;
+}
+
+#toggle-button:focus {
+    background-color: grey;
+}
+
 #add-button {
     margin-top: 10px;
+    width: 295px;
     color: white;
     background-color: green;
     border-color: grey;

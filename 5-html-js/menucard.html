@@ -9,12 +9,14 @@
 <body>
     <div id="wrapper-content">
         <div id="main-heading">
-            <h1>M E N U C A R D</h1>
+            <h1> M E N U C A R D </h1>
         </div>
         <div id="menu-card">
-            <input type="text" value="Tea" id="input-tea" onload="readOnly()"><br>
-            <input type="text" value="Coffee" id="input-coffee"><br>
-            <button type="submit" id="add-button" onclick="add()">add</button>
+            <input type="text" value="Tea" id="input-tea">
+            <button type="submit" id="toggle-button" onclick="toggleReadOnly()">Toggle Read Only</button>
+            <div id="new-element">
+                <button type="submit" id="add-button" onclick="addElement()">Add food &#43;</button>
+            </div>
         </div>
     </div>
 </body>
