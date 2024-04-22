@@ -2,12 +2,18 @@ function addElement() {
     const foodName = document.createElement(`input`);
     foodName.style.cssText = "margin-top:15px"
     const deleteButton = document.createElement(`button`);
-    deleteButton.style.cssText = "width:30px;height:23px;margin-top:15px;color:red;border-color:grey;"
+    deleteButton.classList.add("delete-button");
     foodName.value = "";
     deleteButton.textContent = " - ";
+    const outerWrapper = document.createElement(`div`);
     const name = document.getElementById("menu-card");
-    name.appendChild(foodName);
-    name.appendChild(deleteButton);
+    outerWrapper.appendChild(foodName);
+    outerWrapper.appendChild(deleteButton);
+    name.appendChild(outerWrapper)
+    deleteButton.addEventListener("click", deleteNewAddedElement, false);
+}
+function deleteNewAddedElement() {
+    this.parentNode.remove()
 }
 function toggleReadOnly() {
     const currentInputReadOnly = document.getElementById("input-tea").readOnly;

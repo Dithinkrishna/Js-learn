@@ -35,10 +35,6 @@
     cursor: pointer;
 }
 
-#toggle-button:focus {
-    background-color: grey;
-}
-
 #add-button {
     margin-top: 10px;
     width: 295px;
@@ -46,4 +42,12 @@
     background-color: green;
     border-color: grey;
     cursor: pointer;
+}
+
+.delete-button {
+    width: 30px;
+    height: 23px;
+    margin-top: 15px;
+    color: red;
+    border-color: grey;
 }
