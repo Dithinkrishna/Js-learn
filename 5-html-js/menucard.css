@@ -64,6 +64,11 @@
 }
 
 #link {
-    padding-right: 200px;
+    padding-right: 0px;
     font-size: 12px;
+}
+
+#okay-button {
+    color: red;
+    font-size: 10px;
 }

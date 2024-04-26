@@ -6,14 +6,18 @@
     <script src="menucard.js"></script>
 </head>
 
-<body>
+<body onload="changeLink()">
     <div id="wrapper-content">
         <div id="main-heading">
             <h1> M E N U C A R D </h1>
         </div>
         <div id="main-content">
-            <p id="sentence">Our services are done within 5 minutes</p>
-            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_image" id="link">pay by UPI</a>
+            <p id="sentence">Our services are done within 5 minutes
+                <button id="okay-button" onclick="changeText()">okay</button>
+            </p>
+            <div>
+                <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_image" id="link">pay by UPI</a>
+            </div>
         </div>
         <div id="menu-card">
             <input type="text" value="Tea" id="input-tea">
