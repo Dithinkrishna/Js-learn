@@ -11,7 +11,6 @@ function addElement() {
     outerWrapper.appendChild(deleteButton);
     name.appendChild(outerWrapper);
     deleteButton.addEventListener("click", deleteNewAddedElement, false);
-    changeColor.addEventListener("click", toggleReadOnly)
 }
 function deleteNewAddedElement() {
     this.parentNode.remove()
@@ -19,8 +18,6 @@ function deleteNewAddedElement() {
 function toggleReadOnly() {
     const currentInputReadOnly = document.getElementById("input-tea").readOnly;
     document.getElementById('input-tea').readOnly = !currentInputReadOnly;
-    const changeColor = document.getElementById(`input-tea`);
-    changeColor.style.backgroundColor = "lightblue";
 }
 
 function changeText() {

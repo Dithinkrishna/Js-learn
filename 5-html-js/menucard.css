@@ -29,6 +29,10 @@
     color: brown;
 }
 
+#input-tea:read-only {
+    background-color: yellow;
+}
+
 .changColour {
     background-color: aliceblue;
 }
