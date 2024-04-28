@@ -30,7 +30,8 @@
 }
 
 #input-tea:read-only {
-    background-color: yellow;
+    background-color: aqua;
+    border: 0px grey;
 }
 
 .changColour {
