@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+    <title>menu card</title>
+    <link rel="stylesheet" href="menucard.css">
+    <script src="menucard.js"></script>
+</head>
+
+<body onload="changeLink()">
+    <div id="wrapper-content">
+        <div id="main-heading">
+            <h1> M E N U C A R D </h1>
+            <hr>
+        </div>
+        <div id="main-content">
+            <p id="sentence">Our services are done within 5 minutes
+                <button id="okay-button" onclick="changeText()">okay</button>
+            </p>
+            <div>
+                <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_image" id="link">pay by UPI</a>
+            </div>
+        </div>
+        <div id="menu-card">
+            <input type="text" placeholder="Tea" id="input-tea">
+            <button type="submit" id="toggle-button" onclick="toggleReadOnly()">Toggle Read Only</button>
+            <div id="new-element">
+                <button type="submit" id="add-button" onclick="addElement()">Add food &#43;</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
